@@ -2,7 +2,7 @@ name: Generate prompt and tweet
 
 on:
   schedule:
-    - cron: "20 */6 * * *"
+    - cron: "20 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -17,7 +17,7 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
       - uses: browser-actions/setup-chrome@v1
-      - run: python read_sitemap.py
+      - run: python read_sitemap.py --screenshot_and_upload False
         env:
           CLARIFAI_PAT_PROD: ${{ secrets.CLARIFAI_PAT_PROD }}
           CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
