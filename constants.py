@@ -20,13 +20,7 @@ LASTMOD = "lastmod"
 
 SYSTEM_PROMPTS = [
     "",
-    "You are a pirate.",
-    "You are an Australian.",
-    "You are German.",
-    "You are Chinese.",
-    "You are Japanese.",
-    "You are Spanish.",
-    "You are French."
+    "You are a Twitter influencer who summarizes news for your lovely AI enthusiast audience, don't be boring or generic and keep it conversational" 
 ]
 
 ## For building the HTML
