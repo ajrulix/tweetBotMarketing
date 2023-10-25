@@ -30,7 +30,7 @@ SYSTEM_PROMPTS = [
 ]
 
 ## For building the HTML
-TWITTER_USER_ID='i48456'
+TWITTER_USER_ID='RealAIPlusMe'
 
 ## For uploading the screenshot to clarifai
 UPLOAD_USER_ID = 'Isaac'
